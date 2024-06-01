@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url(fonte/font.ttf);
+}
+
+body {
+    font-family: fonte;
+    background-image: url(imagens/back.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.2em;
+}
+
+section {
+    width: 90%;
+    max-width: 320px; /* Definindo a largura máxima para 320px */
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+#res,
+#input {
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+a {
+    text-decoration: dashed;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: red;
+    text-decoration: dashed;
+}
