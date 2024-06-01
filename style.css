@@ -9,6 +9,11 @@
     src: url(fonte/font.ttf);
 }
 
+h1{
+    position: relative;
+    bottom: 10px;
+}
+
 body {
     font-family: fonte;
     background-image: url(imagens/back.jpg);
