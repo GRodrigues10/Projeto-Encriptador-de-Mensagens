@@ -35,13 +35,15 @@ body {
 
 section {
     width: 90%;
-    max-width: 320px; 
+    width: 300px; 
     background-color: rgba(0, 0, 0, 0.548);
     border: 1px solid white;
     border-radius: 10px;
     color: white;
     padding: 20px;
     display: inline-block; 
+    transition:width 0.5s, height 0.5s; 
+    transition-timing-function: ease;
 }
 
 #res,
@@ -72,7 +74,7 @@ button {
 footer {
     text-align: center;
     color: white;
-    font-size: 1em; /* Diminuindo o tamanho do texto */
+    font-size: 1.2em; /* Diminuindo o tamanho do texto */
     margin-top: 10px; /* Aumentando a margem superior */
     text-shadow: 2px 2px 2px black;
     position: fixed; /* Colocando o rodapé no final da página */
