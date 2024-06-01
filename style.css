@@ -15,6 +15,7 @@ body {
     background-size: cover;
     background-position: center; /* Adicionando para centralizar a imagem */
     background-repeat: no-repeat;
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
 }
 
 h1 {
