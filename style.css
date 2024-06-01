@@ -13,6 +13,8 @@ body {
     font-family: fonte;
     background-image: url(imagens/back.jpg);
     background-size: cover;
+    background-position: center; /* Adicionando para centralizar a imagem */
+    background-repeat: no-repeat;
 }
 
 h1 {
