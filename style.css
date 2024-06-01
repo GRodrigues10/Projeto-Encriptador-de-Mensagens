@@ -13,28 +13,30 @@ body {
     font-family: fonte;
     background-image: url(imagens/back.jpg);
     background-size: cover;
-    background-position: center; /* Adicionando para centralizar a imagem */
+    background-position: center; 
     background-repeat: no-repeat;
-    height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+    height: 100vh; 
+    max-width: 100%; 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.2em;
+.wrapper {
+    text-align: center; 
 }
 
 section {
     width: 90%;
-    max-width: 320px; /* Definindo a largura máxima para 320px */
-    margin: auto;
-    margin-top: 80px;
+    max-width: 320px; 
     background-color: rgba(0, 0, 0, 0.548);
     border: 1px solid white;
     border-radius: 10px;
     color: white;
     padding: 20px;
+    display: inline-block; 
 }
 
 #res,
@@ -65,9 +67,15 @@ button {
 footer {
     text-align: center;
     color: white;
-    font-size: 2em;
-    margin-top: 60px;
+    font-size: 1em; /* Diminuindo o tamanho do texto */
+    margin-top: 10px; /* Aumentando a margem superior */
     text-shadow: 2px 2px 2px black;
+    position: fixed; /* Colocando o rodapé no final da página */
+    bottom: 0; /* Posicionando no fundo da página */
+    width: 100%; /* Largura total */
+    padding: 20px; /* Espaçamento interno */
+    background-color: rgba(0, 0, 0, 0.548); /* Cor de fundo */
+    border-top: 1px solid white; /* Adicionando uma borda superior */
 }
 
 a {
