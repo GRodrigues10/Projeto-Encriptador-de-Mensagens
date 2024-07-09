@@ -37,4 +37,5 @@ function desencriptar() {
 function limpar() {
     input.value = ''; // Limpa o input
     resultado.innerHTML = 'Preencha os dados da caixa acima para encriptar uma mensagem!'; // Limpa o resultado
+    conversor = '';
 }
