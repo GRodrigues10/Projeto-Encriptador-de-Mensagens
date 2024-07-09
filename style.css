@@ -106,3 +106,7 @@ a:hover {
     color: red;
     text-decoration: dashed;
 }
+
+textarea{
+    resize: none;
+}
